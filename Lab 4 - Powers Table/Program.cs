@@ -44,7 +44,7 @@ namespace Lab_4___Powers_Table
                     while (userContinue != 'y' && userContinue != 'n')
                     {
                         Console.WriteLine("\nWould you like to continue? y/n?");
-                        userContinue = Console.ReadLine()[0];
+                        userContinue = Console.ReadLine().ToLower()[0];
 
                         if (userContinue == 'n')
                         {
